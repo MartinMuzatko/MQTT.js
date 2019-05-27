@@ -535,14 +535,14 @@ See http://unpkg.com for the full documentation on version ranges.
 Support [WeChat Mini Program](https://mp.weixin.qq.com/). See [Doc](https://mp.weixin.qq.com/debug/wxadoc/dev/api/network-socket.html).
 <a name="example"></a>
 
-## Example(js)
+## Example(commonjs)
 
 ```js
 var mqtt = require('mqtt')
 var client = mqtt.connect('wxs://test.mosquitto.org')
 ```
 
-## Example(ts)
+## Example(es6)
 
 ```ts
 import { connect } from 'mqtt';
@@ -553,14 +553,14 @@ const client = connect('wxs://test.mosquitto.org');
 Surport [Ali Mini Program](https://open.alipay.com/channel/miniIndex.htm). See [Doc](https://docs.alipay.com/mini/developer/getting-started).
 <a name="example"></a>
 
-## Example(js)
+## Example(commonjs)
 
 ```js
 var mqtt = require('mqtt')
 var client = mqtt.connect('alis://test.mosquitto.org')
 ```
 
-## Example(ts)
+## Example(es6)
 
 ```ts
 import { connect } from 'mqtt';
